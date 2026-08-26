@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-labelledby="title desc">
+<title id="title">Ilustrasi mahasiswa belajar pemrograman</title>
+<desc id="desc">Ilustrasi seseorang duduk menggunakan laptop untuk belajar pemrograman.</desc>
+<rect width="700" height="500" rx="30" fill="#eee5d4"/>
+<circle cx="350" cy="170" r="85" fill="#d9b28b"/>
+<path d="M270 155c15-85 145-90 160 0-45-30-115-25-160 0z" fill="#302d2b"/>
+<path d="M245 400c10-120 200-120 210 0z" fill="#5d7892"/>
+<rect x="145" y="290" width="410" height="125" rx="12" fill="#333"/>
+<rect x="165" y="305" width="370" height="85" rx="5" fill="#dce7ec"/>
+<path d="M110 420h480l-40 25H150z" fill="#555"/>
+<text x="350" y="355" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">HTML5</text>
+</svg>

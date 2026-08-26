@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page Pribadi | Portofolio</title>
+  <meta name="description" content="Landing page pribadi berisi profil singkat, minat, proyek, dan formulir kontak.">
+  <meta property="og:title" content="Landing Page Pribadi | Portofolio">
+  <meta property="og:description" content="Profil pribadi dan portofolio sederhana.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#beranda" aria-label="Kembali ke beranda">Portofolio Saya</a>
+
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="beranda">
+    <article class="hero container">
+      <section class="hero-text" aria-labelledby="judul-utama">
+        <p class="eyebrow">MAHASISWA &amp; PEMBELAJAR WEB</p>
+        <h1 id="judul-utama">Halo, saya Misca Octavia.</h1>
+        <p>
+          Saya adalah mahasiswa jurusan Matematika yang tertarik pada teknologi,
+  pemrograman, dan pengembangan website. Saya senang mempelajari hal baru
+  dan mengembangkan kemampuan melalui berbagai proyek.
+        </p>
+        <a class="button" href="#kontak">Hubungi Saya</a>
+      </section>
+
+      <figure class="profile-card">
+        <img src="foto-profil.jpeg" alt="Ilustrasi profil mahasiswa dengan laptop">
+        <figcaption>Misca Octavia</figcaption>
+      </figure>
+    </article>
+
+    <section id="tentang" class="section container" aria-labelledby="tentang-title">
+      <p class="section-number">01 — TENTANG</p>
+      <h2 id="tentang-title">Tentang Saya</h2>
+      <span class="question-mark" aria-hidden="true">?</span>
+
+      <div class="two-column">
+        <div>
+          <h3>Profil Singkat</h3>
+          <p>
+            Saya sedang mempelajari dasar-dasar pemrograman web, terutama
+            HTML, CSS, dan JavaScript. Saya senang mencoba membuat tampilan
+            website yang sederhana, rapi, dan mudah digunakan.
+          </p>
+          <p>
+            Saat ini saya fokus memahami struktur HTML5 semantik dan cara
+            membuat halaman yang responsif.
+          </p>
+        </div>
+
+        <aside class="info-box" aria-labelledby="minat-title">
+          <h3 id="minat-title">Minat Saya💡</h3>
+          <ul>
+            <li>Web Development</li>
+            <li>UI/UX sederhana</li>
+            <li>Teknologi dan pemrograman</li>
+            <li>Belajar hal baru</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="proyek" class="section section-alt" aria-labelledby="proyek-title">
+      <div class="container">
+        <p class="section-number">02 — PROYEK</p>
+        <h2 id="proyek-title">📁Proyek yang Pernah Dibuat</h2>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>💻</h3>
+            <h3>Landing Page Pribadi</h3>
+            <p>
+              Membuat landing page pribadi menggunakan HTML5 dan
+              CSS sebagai pemrograman web.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>🗄️</h3>
+            <h3>Database Akademik</h3>
+            <p>
+              Mebuat rancangan database akademik untuk mengelola data mahasiswa,
+              mata kuliah, KRS, nilai, dan jadwal.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>☕</h3>
+            <h3>Program Java</h3>
+            <p>
+               Membuat program sederhana menggunakan java sebagai 
+               latihan pemrograman dan pengolahan data.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="aktivitas-title">
+      <p class="section-number">03 — AKTIVITAS</p>
+      <h2 id="aktivitas-title">📚Aktivitas Belajar</h2>
+
+      <article class="timeline-card">
+        <h3>🌐Belajar Pemrograman Web</h3>
+        <p>
+          Mulai mempelajari dasar pemrograman web dan membuat landing 
+          page pribadi menggunakan HTML5 dan CSS.
+          <time datetime="2026-08-23">23 Agustus 2026</time>.
+        </p>
+      </article>
+    </section>
+
+    <section id="kontak" class="section section-alt" aria-labelledby="kontak-title">
+      <div class="container contact-layout">
+        <div>
+          <p class="section-number">04 — KONTAK</p>
+          <h2 id="kontak-title">📞Mari Terhubung</h2>
+          <p>
+            Isi formulir berikut untuk mengirim pesan. Semua kolom utama
+            menggunakan validasi HTML5.
+          </p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama lengkap</label>
+            <input id="nama" name="nama" type="text" required minlength="3"
+              autocomplete="name" placeholder="Masukkan nama">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required
+              autocomplete="email" placeholder="nama@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="tanggal">Tanggal pesan</label>
+            <input id="tanggal" name="tanggal" type="date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="warna">Warna favorit</label>
+            <input id="warna" name="warna" type="color" value="#9FBAD0-">
+          </div>
+
+          <div class="form-group">
+            <label for="tingkat">Tingkat ketertarikan (1–10)</label>
+            <input id="tingkat" name="tingkat" type="range" min="1" max="10" value="5">
+          </div>
+
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="5" required minlength="10"
+              placeholder="Tulis pesan kamu..."></textarea>
+          </div>
+
+          <button class="button" type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <time datetime="2026">2026</time> Misca Octavia. Semua hak dilindungi.</p>
+      <a href="#beranda">Kembali ke atas</a>
+    </div>
+  </footer>
+</body>
+</html>
